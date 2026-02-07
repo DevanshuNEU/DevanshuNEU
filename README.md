@@ -8,7 +8,7 @@
 │    ██████╔╝███████╗ ╚████╔╝ ██║  ██║██║ ╚████║███████║██║  ██║╚██████╔╝     │
 │    ╚═════╝ ╚══════╝  ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝ ╚═════╝     │
 │                                                                              │
-│                    Building the context layer for AI                         │
+│                      Building the context layer for AI                       │
 │                                                                              │
 ╰──────────────────────────────────────────────────────────────────────────────╯
 ```
@@ -23,120 +23,70 @@
 
 ---
 
-<br/>
-
 <table>
 <tr>
-<td valign="top" width="50%">
+<td width="50%" valign="top">
 
 ### OpenCodeIntel
 
 > The missing context layer for AI-assisted development
 
-```
-Semantic code search that makes
-Cursor, Windsurf, and Claude
-actually understand your codebase.
-```
+Semantic code search that makes Cursor, Windsurf, and Claude actually understand your codebase.
 
-`87.5% Hit@1` · `MCP-first` · `400+ commits`
+`87.5% Hit@1` · `MCP-native` · `400+ commits`
 
-**[opencodeintel.com](https://opencodeintel.com)** · **[source](https://github.com/OpenCodeIntel/opencodeintel)**
+[opencodeintel.com](https://opencodeintel.com) · [source](https://github.com/OpenCodeIntel/opencodeintel)
 
 </td>
-<td valign="top" width="50%">
+<td width="50%" valign="top">
 
 ### Portfolio OS
 
 > Because regular portfolios are boring
 
-```
-An entire operating system
-experience. In your browser.
-Built from scratch.
-```
+An entire operating system experience. In your browser. Built from scratch.
 
 `Next.js 15` · `TypeScript` · `Framer Motion`
 
-**[devanshuchicholikar.me](https://devanshuchicholikar.me)**
+[devanshuchicholikar.me](https://devanshuchicholikar.me)
 
 </td>
 </tr>
 </table>
 
-<br/>
+---
+
+### Tech
+
+```
+languages    TypeScript · Python · JavaScript · SQL
+frontend     React · Next.js · Tailwind · Framer Motion
+backend      FastAPI · Node.js · Express · tRPC
+data         PostgreSQL · Supabase · Redis · Pinecone
+infra        AWS · Docker · Terraform · GitHub Actions
+ai/ml        OpenAI · Embeddings · RAG · MCP Protocol
+```
 
 ---
 
-<br/>
+### Background
 
-<details>
-<summary><b>More about me</b></summary>
+MS Software Engineering @ **Northeastern University** · Graduating May 2026
 
-<br/>
+Currently TA for Network Structures & Cloud Computing under Prof. Tejas Parikh
 
-```yaml
-location: Boston, MA
-origin: India
+Previously 2+ years at **Jaksh Enterprise** — built MERN apps, reduced API latency by 65%, migrated infrastructure to AWS
 
-education:
-  school: Northeastern University
-  degree: MS Software Engineering
-  graduation: May 2026
+---
 
-role: Teaching Assistant
-course: Network Structures & Cloud Computing
-
-previously:
-  - 2+ years freelance at Jaksh Enterprise
-  - Built MERN apps, reduced API latency 65%
-  - AWS infrastructure migrations
-
-interests:
-  - Developer tools
-  - F1 (ask me about DRS)
-  - Travel hacking
-```
-
-</details>
-
-<details>
-<summary><b>Tech</b></summary>
-
-<br/>
-
-```
-Frontend     React · Next.js · TypeScript · Tailwind
-Backend      Python · FastAPI · Node.js · Express
-Data         PostgreSQL · Supabase · Redis · Pinecone
-Infra        AWS · Docker · Terraform · GitHub Actions
-AI/ML        OpenAI · Embeddings · RAG · MCP
-```
-
-</details>
-
-<details>
-<summary><b>Stats</b></summary>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DevanshuNEU&show_icons=true&hide_border=true&bg_color=00000000&title_color=ffffff&icon_color=ffffff&text_color=aaaaaa&hide_title=true" alt="stats"/>
-</div>
-
-</details>
-
-<br/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DevanshuNEU&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=1f6feb&hide_border=true&custom_title=" width="100%" alt="activity"/>
 
 ---
 
 <div align="center">
 
-```
-Open to full-time roles starting May 2026
-F1 → OPT → STEM OPT (3 years authorization)
-```
+**Open to full-time roles · May 2026**
 
-<sub>Let's build something together</sub>
+F1 → OPT → STEM OPT · 3 years work authorization
 
 </div>
