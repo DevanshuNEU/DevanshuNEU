@@ -48,7 +48,7 @@ An entire operating system experience. In your browser. Built from scratch.
 
 `Next.js 15` · `TypeScript` · `Framer Motion`
 
-[devanshuchicholikar.me](https://devanshuchicholikar.me)
+[devanshuchicholikar.me](https://devanshuchicholikar.com)
 
 </td>
 </tr>
