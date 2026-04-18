@@ -15,7 +15,7 @@
 
 <div align="center">
   
-[![Portfolio](https://img.shields.io/badge/devanshuchicholikar.me-000?style=flat-square)](https://devanshuchicholikar.com)
+[![Portfolio](https://img.shields.io/badge/devanshuchicholikar.com-000?style=flat-square)](https://devanshuchicholikar.com)
 [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=flat-square)](https://linkedin.com/in/devanshu-chicholikar)
 [![Email](https://img.shields.io/badge/email-EA4335?style=flat-square)](mailto:chicholikar.d@northeastern.edu)
 
