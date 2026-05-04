@@ -33,7 +33,7 @@
 
 Semantic code search that makes Cursor, Windsurf, and Claude actually understand your codebase.
 
-`87.5% Hit@1` · `MCP-native` · `500+ commits`
+`87.5% Hit@1` · `MCP-native` · `650+ commits`
 
 [opencodeintel.com](https://opencodeintel.com) · [source](https://github.com/OpenCodeIntel/opencodeintel)
 
