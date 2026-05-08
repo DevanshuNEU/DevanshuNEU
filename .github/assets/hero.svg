@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-label="Devanshu Chicholikar — building the context layer AI coding tools forgot to build">
+  <defs>
+    <radialGradient id="bg" cx="70%" cy="20%" r="120%">
+      <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#0b0b1a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" x2="1">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="320" rx="18" fill="#020617"/>
+  <rect width="900" height="320" rx="18" fill="url(#bg)"/>
+
+  <!-- constellation: edges (drawn first, sit behind nodes) -->
+  <g stroke="#a78bfa" stroke-width="0.6" opacity="0.22">
+    <line x1="60"  y1="60"  x2="140" y2="110"/>
+    <line x1="140" y1="110" x2="220" y2="70"/>
+    <line x1="220" y1="70"  x2="300" y2="150"/>
+    <line x1="140" y1="110" x2="180" y2="220"/>
+    <line x1="180" y1="220" x2="280" y2="260"/>
+    <line x1="60"  y1="60"  x2="100" y2="180"/>
+    <line x1="100" y1="180" x2="180" y2="220"/>
+
+    <line x1="620" y1="60"  x2="700" y2="100"/>
+    <line x1="700" y1="100" x2="780" y2="60"/>
+    <line x1="700" y1="100" x2="760" y2="180"/>
+    <line x1="760" y1="180" x2="840" y2="140"/>
+    <line x1="760" y1="180" x2="820" y2="260"/>
+    <line x1="620" y1="60"  x2="660" y2="200"/>
+    <line x1="660" y1="200" x2="760" y2="180"/>
+  </g>
+
+  <!-- constellation: nodes -->
+  <g>
+    <circle cx="60"  cy="60"  r="2.2" fill="#a78bfa"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="140" cy="110" r="2.6" fill="#c4b5fd"><animate attributeName="opacity" values="0.55;1;0.55" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="220" cy="70"  r="2"   fill="#60a5fa"><animate attributeName="opacity" values="0.45;0.95;0.45" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="150" r="2"   fill="#a78bfa"><animate attributeName="opacity" values="0.4;0.85;0.4" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="220" r="2.4" fill="#93c5fd"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="100" cy="180" r="1.8" fill="#a78bfa"><animate attributeName="opacity" values="0.35;0.8;0.35" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="280" cy="260" r="2"   fill="#60a5fa"><animate attributeName="opacity" values="0.45;0.9;0.45" dur="3.2s" repeatCount="indefinite"/></circle>
+
+    <circle cx="620" cy="60"  r="2"   fill="#60a5fa"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="100" r="2.6" fill="#c4b5fd"><animate attributeName="opacity" values="0.55;1;0.55" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="780" cy="60"  r="2"   fill="#a78bfa"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="180" r="2.4" fill="#93c5fd"><animate attributeName="opacity" values="0.55;1;0.55" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="840" cy="140" r="1.8" fill="#a78bfa"><animate attributeName="opacity" values="0.4;0.85;0.4" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="260" r="2"   fill="#60a5fa"><animate attributeName="opacity" values="0.45;0.95;0.45" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="660" cy="200" r="2"   fill="#a78bfa"><animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.7s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- soft halo behind name -->
+  <ellipse cx="450" cy="160" rx="240" ry="60" fill="url(#bg)" opacity="0.7" filter="url(#soft)"/>
+
+  <!-- top accent rule -->
+  <line x1="330" y1="100" x2="570" y2="100" stroke="url(#rule)" stroke-width="1"/>
+
+  <!-- name -->
+  <text x="450" y="165" text-anchor="middle"
+        font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, Roboto, sans-serif"
+        font-size="46" font-weight="700" letter-spacing="-1.2" fill="#f8fafc">
+    Devanshu Chicholikar
+  </text>
+
+  <!-- tagline -->
+  <text x="450" y="200" text-anchor="middle"
+        font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, monospace"
+        font-size="13.5" fill="#cbd5e1" letter-spacing="0.5">
+    building the context layer AI coding tools forgot to build
+  </text>
+
+  <!-- bottom accent rule -->
+  <line x1="330" y1="225" x2="570" y2="225" stroke="url(#rule)" stroke-width="1"/>
+
+  <!-- meta line -->
+  <text x="450" y="255" text-anchor="middle"
+        font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif"
+        font-size="10.5" fill="#94a3b8" letter-spacing="3" font-weight="500">
+    MS  ·  NORTHEASTERN  ·  BOSTON  ·  AVAILABLE  MAY  2026
+  </text>
+
+  <!-- subtle availability dot -->
+  <g transform="translate(265 251)">
+    <circle r="3" fill="#34d399">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="6" fill="none" stroke="#34d399" stroke-width="1" opacity="0.4">
+      <animate attributeName="r" values="3;9;3" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
