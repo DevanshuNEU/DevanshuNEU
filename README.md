@@ -1,8 +1,6 @@
-> Building the context layer AI coding tools forgot to build.
-
-Master's student at Northeastern. Shipping in Boston.
-
----
+<p align="center">
+  <img src="./.github/assets/hero.svg" alt="Devanshu Chicholikar — building the context layer AI coding tools forgot to build" width="100%"/>
+</p>
 
 ### Work
 
@@ -32,6 +30,14 @@ Production MERN engineering. Built end-to-end apps, migrated infrastructure to A
 ### Now
 
 Cycle 2 of OpenCodeIntel is the education loop, end to end. Can a developer tool teach better prompting using your own codebase as the curriculum? Six weeks of validation work, ending June 22. I'm taking the lessons into whichever team I join next.
+
+---
+
+### Activity
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="100%"/>
+</p>
 
 ---
 
