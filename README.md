@@ -14,9 +14,6 @@ A full operating system experience, in a browser tab. Built from scratch.
 `Next.js 15` · `TypeScript` · `Framer Motion`
 [devanshuchicholikar.com](https://devanshuchicholikar.com)
 
-**Jaksh Enterprise** · 2022 to 2024
-Production MERN engineering. Built end-to-end apps, migrated infrastructure to AWS, dropped API latency by 65%.
-
 ---
 
 ### Currently shipping
