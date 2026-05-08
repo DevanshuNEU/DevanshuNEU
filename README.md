@@ -1,92 +1,43 @@
-```
-╭──────────────────────────────────────────────────────────────────────────────╮
-│                                                                              │
-│    ██████╗ ███████╗██╗   ██╗ █████╗ ███╗   ██╗███████╗██╗  ██╗██╗   ██╗      │
-│    ██╔══██╗██╔════╝██║   ██║██╔══██╗████╗  ██║██╔════╝██║  ██║██║   ██║      │
-│    ██║  ██║█████╗  ██║   ██║███████║██╔██╗ ██║███████╗███████║██║   ██║      │
-│    ██║  ██║██╔══╝  ╚██╗ ██╔╝██╔══██║██║╚██╗██║╚════██║██╔══██║██║   ██║      │
-│    ██████╔╝███████╗ ╚████╔╝ ██║  ██║██║ ╚████║███████║██║  ██║╚██████╔╝      │
-│    ╚═════╝ ╚══════╝  ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝ ╚═════╝       │
-│                                                                              │
-│                      Building cool AI stuff everyday                         │
-│                                                                              │
-╰──────────────────────────────────────────────────────────────────────────────╯
-```
+> Building the context layer AI coding tools forgot to build.
 
-<div align="center">
-  
-[![Portfolio](https://img.shields.io/badge/devanshuchicholikar.com-000?style=flat-square)](https://devanshuchicholikar.com)
-[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=flat-square)](https://linkedin.com/in/devanshu-chicholikar)
-[![Email](https://img.shields.io/badge/email-EA4335?style=flat-square)](mailto:chicholikar.d@northeastern.edu)
-
-</div>
+Master's student at Northeastern. Shipping in Boston.
 
 ---
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### Work
 
-### OpenCodeIntel
-
-> The missing context layer for AI-assisted development
-
-Semantic code search that makes Cursor, Windsurf, and Claude actually understand your codebase.
-
-`87.5% Hit@1` · `MCP-native` · `650+ commits`
-
+**OpenCodeIntel**
+The missing context layer for AI-assisted development. Semantic code search that makes Cursor, Claude, and Windsurf actually understand a codebase.
+`87.5% Hit@1` · `688 commits` · `MCP-native`
 [opencodeintel.com](https://opencodeintel.com) · [source](https://github.com/OpenCodeIntel/opencodeintel)
 
-</td>
-<td width="50%" valign="top">
-
-### Portfolio OS
-
-> Because regular portfolios are boring
-
-An entire operating system experience. In your browser. Built from scratch.
-
+**Portfolio OS**
+A full operating system experience, in a browser tab. Built from scratch.
 `Next.js 15` · `TypeScript` · `Framer Motion`
-
 [devanshuchicholikar.com](https://devanshuchicholikar.com)
 
-</td>
-</tr>
-</table>
+**Jaksh Enterprise** · 2022 to 2024
+Production MERN engineering. Built end-to-end apps, migrated infrastructure to AWS, dropped API latency by 65%.
 
 ---
 
-### Tech
+### Currently shipping
 
-```
-languages    TypeScript · Python · JavaScript · SQL
-frontend     React · Next.js · Tailwind · Framer Motion
-backend      FastAPI · Node.js · Express · tRPC
-data         PostgreSQL · Supabase · Redis · Pinecone
-infra        AWS · Docker · Terraform · GitHub Actions
-ai/ml        OpenAI · Embeddings · RAG · MCP Protocol
-```
+<!-- AUTO:START -->
+**2026-04-24** · docs: clean pass -- remove em dashes, professional prose throughout
+<!-- AUTO:END -->
+
+---
+
+### Now
+
+Cycle 2 of OpenCodeIntel is the education loop, end to end. Can a developer tool teach better prompting using your own codebase as the curriculum? Six weeks of validation work, ending June 22. I'm taking the lessons into whichever team I join next.
 
 ---
 
 ### Background
 
-MS Software Engineering @ **Northeastern University** · Graduating May 2026
+Graduate TA for Cloud Computing and Networks at Northeastern University, under Prof. Tejas Parikh.
+Open to full-time SWE roles, May 2026. F1 to OPT to STEM OPT, three years of US work authorization.
 
-Currently TA for Network Structures & Cloud Computing under Prof. Tejas Parikh
-
-Previously 2+ years at **Jaksh Enterprise** — built MERN apps, reduced API latency by 65%, migrated infrastructure to AWS
-
----
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DevanshuNEU&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=1f6feb&hide_border=true&custom_title=" width="100%" alt="activity"/>
-
----
-
-<div align="center">
-
-**Open to full-time roles · May 2026**
-
-F1 → OPT → STEM OPT · 3 years work authorization
-
-</div>
+[devanshuchicholikar.com](https://devanshuchicholikar.com) · [linkedin](https://linkedin.com/in/devanshu-chicholikar) · [email](mailto:chicholikar.d@northeastern.edu)
