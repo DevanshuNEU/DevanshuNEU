@@ -2,6 +2,10 @@
   <img src="./.github/assets/hero.svg" alt="Devanshu Chicholikar — building the context layer AI coding tools forgot to build" width="100%"/>
 </p>
 
+<p align="center">
+  <img src="./.github/assets/terminal.svg" alt="terminal showing manifesto" width="100%"/>
+</p>
+
 ### Work
 
 **OpenCodeIntel**
@@ -42,5 +46,20 @@ Cycle 2 of OpenCodeIntel is the education loop, end to end. Can a developer tool
 
 Graduate TA for Cloud Computing and Networks at Northeastern University, under Prof. Tejas Parikh.
 Open to full-time SWE roles, May 2026. F1 to OPT to STEM OPT, three years of US work authorization.
+
+<details>
+<summary><b>Why I'm building this</b></summary>
+
+<br/>
+
+AI coding tools went from gimmick to "actually helps me ship" over the last two years. But every one of them has the same blind spot: they do not understand the codebase you are working in. They read the file you have open, maybe a few imports, then guess.
+
+Real engineering is about everything you cannot see in the current file. What got renamed last quarter, why a function exists, which call sites would break if you changed a signature. AI tools should know all of this. Right now they do not.
+
+So I am building the context layer. 87.5% Hit@1 on real repos so far. Six more weeks to figure out if it teaches better prompting in production, or if it is a research demo wearing a product costume.
+
+Either way, I will know.
+
+</details>
 
 [devanshuchicholikar.com](https://devanshuchicholikar.com) · [linkedin](https://linkedin.com/in/devanshu-chicholikar) · [email](mailto:chicholikar.d@northeastern.edu)
