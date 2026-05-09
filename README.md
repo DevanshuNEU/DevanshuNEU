@@ -13,6 +13,10 @@ The missing context layer for AI-assisted development. Semantic code search that
 `87.5% Hit@1` · `688 commits` · `MCP-native`
 [opencodeintel.com](https://opencodeintel.com) · [source](https://github.com/OpenCodeIntel/opencodeintel)
 
+<p align="center">
+  <img src="./.github/assets/oci-pipeline.svg" alt="OpenCodeIntel pipeline: query becomes embeddings, embeddings find matches in a semantic graph, top results rank by similarity" width="100%"/>
+</p>
+
 **Portfolio OS**
 A full operating system experience, in a browser tab. Built from scratch.
 `Next.js 15` · `TypeScript` · `Framer Motion`
