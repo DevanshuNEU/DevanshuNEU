@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-label="Devanshu Chicholikar — building the context layer AI coding tools forgot to build">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-label="Devanshu Chicholikar, engineer, ships fast, all-in on AI">
   <defs>
     <radialGradient id="bg" cx="70%" cy="20%" r="120%">
       <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.55"/>
@@ -77,7 +77,7 @@
   <text x="450" y="200" text-anchor="middle"
         font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, monospace"
         font-size="13.5" fill="#cbd5e1" letter-spacing="0.5">
-    building the context layer AI coding tools forgot to build
+    engineer  ·  ships fast  ·  all-in on AI
   </text>
 
   <!-- bottom accent rule -->
