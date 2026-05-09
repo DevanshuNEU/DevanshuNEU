@@ -12,7 +12,7 @@ The missing context layer for AI-assisted development. Semantic code search that
 **Portfolio OS**
 A full operating system experience, in a browser tab. Built from scratch.
 `Next.js 15` · `TypeScript` · `Framer Motion`
-[devanshuchicholikar.com](https://devanshuchicholikar.com)
+[Portfolio](https://devanshuchicholikar.com)
 
 ---
 
