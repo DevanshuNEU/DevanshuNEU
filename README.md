@@ -23,7 +23,7 @@
 
 **OpenCodeIntel**
 The missing context layer for AI-assisted development. Semantic code search that makes Cursor, Claude, and Windsurf actually understand a codebase.
-`87.5% Hit@1` · `688 commits` · `MCP-native`
+`87.5% Hit@1` · `691 commits` · `MCP-native`
 [opencodeintel.com](https://opencodeintel.com) · [source](https://github.com/OpenCodeIntel/opencodeintel)
 
 <p align="center">
@@ -40,7 +40,7 @@ A full operating system experience, in a browser tab. Built from scratch.
 ### Currently shipping
 
 <!-- AUTO:START -->
-**2026-04-24** · docs: clean pass -- remove em dashes, professional prose throughout
+**2026-05-11** · fix: review findings (MD037 underscores, bun.lock consistency)
 <!-- AUTO:END -->
 
 ---
