@@ -23,7 +23,7 @@
 
 **OpenCodeIntel**
 The missing context layer for AI-assisted development. Semantic code search that makes Cursor, Claude, and Windsurf actually understand a codebase.
-`87.5% Hit@1` · `701 commits` · `MCP-native`
+`87.5% Hit@1` · `705 commits` · `MCP-native`
 [opencodeintel.com](https://opencodeintel.com) · [source](https://github.com/OpenCodeIntel/opencodeintel)
 
 <p align="center">
@@ -40,7 +40,7 @@ A full operating system experience, in a browser tab. Built from scratch.
 ### Currently shipping
 
 <!-- AUTO:START -->
-**2026-06-08** · chore(deps): bump react-router-dom to ^7.15.0 (fixes 4 HIGH react-router CVEs)
+**2026-06-11** · refactor: address review feedback on eval harness types and async I/O (#312)
 <!-- AUTO:END -->
 
 ---
