@@ -23,7 +23,7 @@
 
 **OpenCodeIntel**
 The missing context layer for AI-assisted development. Semantic code search that makes Cursor, Claude, and Windsurf actually understand a codebase.
-`87.5% Hit@1` · `705 commits` · `MCP-native`
+`87.5% Hit@1` · `710 commits` · `MCP-native`
 [opencodeintel.com](https://opencodeintel.com) · [source](https://github.com/OpenCodeIntel/opencodeintel)
 
 <p align="center">
@@ -40,7 +40,7 @@ A full operating system experience, in a browser tab. Built from scratch.
 ### Currently shipping
 
 <!-- AUTO:START -->
-**2026-06-11** · refactor: address review feedback on eval harness types and async I/O (#312)
+**2026-06-11** · fix: drop unsupported buildContext/dockerfilePath from mcp railway.json
 <!-- AUTO:END -->
 
 ---
