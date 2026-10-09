@@ -59,7 +59,7 @@ I'm an AI engineer in Boston. I ship AI systems to production end to end: MCP se
 
 ### Experience
 
-- **Graduate Teaching Assistant**, Northeastern University · Sep 2025 to May 2026<br><sub>CSYE 6225 Network Structures and Cloud Computing under Prof. Tejas Parikh: cloud best practices on AWS for 60+ graduate students</sub>
+- **Graduate Teaching Assistant**, Northeastern University · Sep 2025 to May 2026<br><sub>CSYE 6225 Network Structures and Cloud Computing under Prof. Tejas Parikh: cloud best practices on AWS for 100+ graduate students across two semesters</sub>
 - **Software Engineer**, Jaksh Enterprise · Aug 2022 to Jul 2024 · full-time<br><sub>Java / Spring Boot quotation engine for 590+ products; quote-page p95 latency cut 65%</sub>
 - **Software Development Engineer Intern**, Pitney Bowes · Jan 2022 to Jul 2022<br><sub>REST APIs and Angular workflows for PitneyShipPro</sub>
 
