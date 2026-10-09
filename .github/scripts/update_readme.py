@@ -23,6 +23,9 @@ from pathlib import Path
 
 API = "https://api.github.com"
 README = Path("README.md")
+# Public project names, so the README never shows an internal repo slug.
+DISPLAY = {"opencodeintel": "OpenCodeIntel", "overhear": "Overhear", "lco": "Saar",
+           "callbudget": "CallBudget", "web-v2": "Portfolio OS"}
 
 
 def http_get(url: str, token: str | None) -> tuple[dict[str, str], bytes]:
@@ -85,21 +88,41 @@ def truncate(text: str, limit: int = 80) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--repo", default="OpenCodeIntel/opencodeintel")
+    parser.add_argument("--repo", default="OpenCodeIntel/opencodeintel",
+                        help="repo whose total commit count fills the `<N> commits` token")
+    parser.add_argument("--activity-repos",
+                        default="OpenCodeIntel/opencodeintel,DevanshuNEU/overhear,OpenCodeIntel/lco,"
+                                "DevanshuNEU/callbudget,DevanshuNEU/web-v2",
+                        help="comma-separated repos; the newest non-merge commit across them is shown")
     parser.add_argument("--token", default=None)
     args = parser.parse_args()
 
     try:
-        date, subject = latest_commit(args.repo, args.token)
         count = total_commits(args.repo, args.token)
     except (urllib.error.URLError, urllib.error.HTTPError, RuntimeError) as exc:
         print(f"upstream fetch failed: {exc}", file=sys.stderr)
         return 1
 
+    # Newest commit across the active repos, so the line never goes stale while
+    # one project is quiet. A repo that fails to fetch is skipped, not fatal.
+    newest = None
+    for repo in [r.strip() for r in args.activity_repos.split(",") if r.strip()]:
+        try:
+            date, subject = latest_commit(repo, args.token)
+        except (urllib.error.URLError, urllib.error.HTTPError, RuntimeError) as exc:
+            print(f"skipping {repo}: {exc}", file=sys.stderr)
+            continue
+        if newest is None or date > newest[0]:
+            newest = (date, subject, DISPLAY.get(repo.split("/")[1], repo.split("/")[1]))
+    if newest is None:
+        print("no activity repo could be fetched", file=sys.stderr)
+        return 1
+    date, subject, name = newest
+
     subject = truncate(subject)
 
     content = README.read_text(encoding="utf-8")
-    new_content = replace_block(content, "AUTO", f"**{date}** · {subject}")
+    new_content = replace_block(content, "AUTO", f"**{date}** · {name} · {subject}")
     new_content = re.sub(
         r"`\d+\s+commits`",
         f"`{count} commits`",
