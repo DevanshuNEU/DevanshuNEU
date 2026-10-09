@@ -1,97 +1,73 @@
-<p align="center">
-  <img src="./.github/assets/hero.svg" alt="Devanshu Chicholikar, AI engineer and forward deployed engineer in Boston, ships AI to production, US work authorized, open to AI engineer and forward deployed roles" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/hero-dark.svg">
+  <img alt="Devanshu Chicholikar. AI engineer and forward deployed engineer in Boston who ships AI to production: MCP, RAG, evals, voice agents. Open to AI Engineer and FDE roles." src="./.github/assets/hero-light.svg" width="100%">
+</picture>
+
+I'm an AI engineer in Boston. I ship AI systems to production end to end: MCP servers, RAG with retrieval evals, LLM-as-a-judge eval harnesses and voice agents, plus the full-stack, infra and design work around them. MS in Software Engineering Systems, Northeastern University (2026). Open to AI Engineer and Forward Deployed Engineer roles anywhere in the US.
+
+<p><samp><a href="https://www.devanshuchicholikar.com">portfolio</a> · <a href="https://opencodeintel.com">opencodeintel.com</a> · <a href="https://www.linkedin.com/in/devanshuchicholikar">linkedin</a> · <a href="mailto:chicholikar.d@northeastern.edu">email</a></samp></p>
+
+### Selected work
+
+<p>
+<a href="https://github.com/OpenCodeIntel/opencodeintel"><picture><source media="(prefers-color-scheme: dark)" srcset="./.github/assets/card-opencodeintel-dark.svg"><img alt="OpenCodeIntel: Code search for AI coding agents. A web app, a REST API and a 12-tool MCP server. Pipeline: repo to tree-sitter to BM25 + vectors to RRF + rerank to MCP. 94% Hit@1, research eval; 242ms p50 cached, production." src="./.github/assets/card-opencodeintel-light.svg" width="49%"></picture></a>
+<a href="https://github.com/DevanshuNEU/overhear"><picture><source media="(prefers-color-scheme: dark)" srcset="./.github/assets/card-overhear-dark.svg"><img alt="Overhear: A QA analyst for voice agents. Grades every call against the clinic&#x27;s real database. Pipeline: call to Retell agent to tool log to code + judge to score. 23/23 planted failures caught; 0.89 macro-F1, 39-call set." src="./.github/assets/card-overhear-light.svg" width="49%"></picture></a>
 </p>
 
-<p align="center">
-  <img src="./.github/assets/terminal.svg" alt="terminal: Devanshu Chicholikar, AI engineer and forward deployed engineer in Boston; stack MCP, RAG, evals, LLM-as-a-judge, voice agents, TypeScript, Python; open to AI engineer and forward deployed roles" width="100%"/>
+<p>
+<a href="https://github.com/DevanshuNEU/callbudget"><picture><source media="(prefers-color-scheme: dark)" srcset="./.github/assets/card-callbudget-dark.svg"><img alt="CallBudget: Finds a hard-to-find drug in fewer calls. Predicts stock, calls the likeliest first. Pipeline: drug + area to ranker to call plan to voice agent to learn. 4.3 → 2.3 expected calls to find it; 10% → 0% false &quot;in stock&quot; answers." src="./.github/assets/card-callbudget-light.svg" width="49%"></picture></a>
+<a href="https://github.com/OpenCodeIntel/lco"><picture><source media="(prefers-color-scheme: dark)" srcset="./.github/assets/card-saar-dark.svg"><img alt="Saar: A Claude.ai token and cost meter that runs entirely in the browser. On the Chrome Web Store. Pipeline: claude.ai to SSE intercept to tokenizer to overlay. 1,808 Vitest tests, 63 files; No backend data stays in browser." src="./.github/assets/card-saar-light.svg" width="49%"></picture></a>
 </p>
 
-I'm an AI engineer in Boston. I ship AI systems to production end to end: MCP servers, RAG with retrieval evals, LLM-as-a-judge eval harnesses and voice agents, plus the full-stack, infra and design work around them. MS in Software Engineering Systems from Northeastern University (2026). Open to AI Engineer and Forward Deployed Engineer roles anywhere in the US.
-
-### Stack
-
-|   |   |
-|---|---|
-| **ai**        | mcp (model context protocol) · rag · evals · llm-as-a-judge · voice agents (retell, pipecat) · claude · openai · embeddings · reranking |
-| **languages** | typescript · python · java · javascript · go · sql |
-| **frontend**  | next.js · react · tailwind · framer motion |
-| **backend**   | fastapi · node · spring boot · express · websockets |
-| **data**      | postgres · supabase · redis · pinecone · duckdb |
-| **infra**     | aws · gcp · docker · terraform · kubernetes · github actions · railway · vercel |
-
----
-
-### Building
-
-**OpenCodeIntel**
-A code-search platform (web app, API and MCP server) that gives AI coding agents real context on a codebase. Hybrid BM25 + vector retrieval with reranking and tree-sitter AST chunking.
-`94% Hit@1 on 14 codebases (research eval)` · `12 MCP tools` · `141 merged PRs` · `717 commits` · `p50 242ms cached`
-[opencodeintel.com](https://opencodeintel.com) · [source](https://github.com/OpenCodeIntel/opencodeintel)
-
-<p align="center">
-  <img src="./.github/assets/oci-pipeline.svg" alt="Illustration of the OpenCodeIntel pipeline: a code question becomes embeddings, hybrid retrieval finds candidate chunks, a reranker orders the top matches" width="100%"/>
+<p>
+<a href="https://github.com/DevanshuNEU/web-v2"><picture><source media="(prefers-color-scheme: dark)" srcset="./.github/assets/card-portfolio-os-dark.svg"><img alt="Portfolio OS: A desktop operating system in a browser tab. Window manager, terminal and dock, from scratch. Pipeline: Next.js 15 to Zustand to window manager to apps. Next.js 15 TypeScript, Zustand; Live devanshuchicholikar.com." src="./.github/assets/card-portfolio-os-light.svg" width="49%"></picture></a>
+<a href="https://github.com/OpenCodeIntel/saar"><picture><source media="(prefers-color-scheme: dark)" srcset="./.github/assets/card-saar-cli-dark.svg"><img alt="saar CLI: Reads a codebase and writes the files coding agents need: AGENTS.md, CLAUDE.md, .cursorrules. Pipeline: repo to static analysis to patterns to AGENTS.md. 22 releases on PyPI; 3 agent context formats." src="./.github/assets/card-saar-cli-light.svg" width="49%"></picture></a>
 </p>
 
-**Overhear**
-An AI QA analyst for voice agents. It grades every call a Retell healthcare-scheduling agent takes against the clinic's real database: code decides the facts, and an LLM judge scores tone and safety.
-`39-call golden dataset` · `23/23 planted failures caught` · `macro-F1 0.89` · `built in 7 days`
-[source](https://github.com/DevanshuNEU/overhear)
+| Project | What it is | Links |
+|---|---|---|
+| **OpenCodeIntel** | Code-search platform for AI coding agents: hybrid BM25 + vector retrieval, cross-encoder reranking, tree-sitter AST chunking, a 12-tool MCP server | [opencodeintel.com](https://opencodeintel.com) · [source](https://github.com/OpenCodeIntel/opencodeintel) |
+| **Overhear** | QA analyst for voice agents: code checks the facts against the clinic database, an LLM-as-a-judge scores tone and safety, evaluated on a 39-call golden dataset | [source](https://github.com/DevanshuNEU/overhear) |
+| **CallBudget** | Active-sensing pharmacy search: a learned ranker plans calls, a voice agent places them, calibrated abstention keeps false "in stock" answers at 0% | [walkthrough](https://www.loom.com/share/0231954a438c4b3ab011fd21f4f41bf2) · [source](https://github.com/DevanshuNEU/callbudget) |
+| **Saar** | Chrome extension that meters Claude.ai tokens and cost in real time, fully client-side | [getsaar.com](https://getsaar.com) · [source](https://github.com/OpenCodeIntel/lco) |
+| **Portfolio OS** | A desktop operating system in a browser tab: window manager, terminal, dock | [live](https://www.devanshuchicholikar.com) · [source](https://github.com/DevanshuNEU/web-v2) |
+| **saar CLI** | Static analysis that writes AGENTS.md, CLAUDE.md and .cursorrules for a codebase | [PyPI](https://pypi.org/project/saar/) · [source](https://github.com/OpenCodeIntel/saar) |
 
-**CallBudget**
-Active-sensing pharmacy search. It predicts which pharmacy has a hard-to-find drug, calls the most likely one first through a voice agent, and learns from every call.
-`calls-to-find 4.3 → 2.3` · `false "in stock" 10% → 0%` · `FastMCP server` · `Pipecat voice agent`
-[walkthrough](https://www.loom.com/share/0231954a438c4b3ab011fd21f4f41bf2) · [source](https://github.com/DevanshuNEU/callbudget)
+### OpenCodeIntel, up close
 
-**Saar**
-A Chrome extension that tracks Claude.ai token usage and cost in real time, entirely in the browser. Published on the Chrome Web Store.
-`1,808 tests` · `Chrome MV3` · `no backend`
-[getsaar.com](https://getsaar.com) · [source](https://github.com/OpenCodeIntel/lco)
+<img src="./.github/assets/oci-demo.gif" alt="Demo: searching the Flask codebase on opencodeintel.com for 'handle an http exception with a registered error handler'. The top result is handle_http_exception at a 70 percent match, followed by errorhandler and handle_exception." width="100%">
 
-**Portfolio OS**
-A full operating system experience, in a browser tab. Built from scratch.
-`Next.js 15` · `TypeScript` · `Framer Motion`
-[devanshuchicholikar.com](https://www.devanshuchicholikar.com)
+- **94% Hit@1** across 14 open-source codebases on a 665-query research eval, with the reranker's +8.4 points isolated by a 98-run ablation.
+- **p50 641ms** for a cold search (embedding, hybrid retrieval and reranking) and **242ms** for cached repeats, measured on production.
+- **12 MCP tools** over stdio for local agents and streamable HTTP for hosted Claude.ai connectors.
+- One result that went against me: rerankers trained on web text made code search worse. It stays in the research log.
 
----
+<details>
+<summary><b>Architecture</b></summary>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/oci-architecture-dark.svg">
+  <img alt="OpenCodeIntel architecture: web app, REST API and MCP server clients; query path embed, BM25 plus vectors, RRF fusion, Cohere rerank; index path tree-sitter chunks, embeddings, Pinecone and BM25; state in Supabase Postgres and Redis." src="./.github/assets/oci-architecture-light.svg" width="100%">
+</picture>
+</details>
 
-### Currently shipping
+### Latest
 
 <!-- AUTO:START -->
 **2026-10-09** · Saar · docs(store-listing): call inject.js a page-context script, not sandboxed
 <!-- AUTO:END -->
 
----
+### Experience
 
-### Now
+- **Graduate Teaching Assistant**, Northeastern University · Sep 2025 to May 2026<br><sub>CSYE 6225 Network Structures and Cloud Computing under Prof. Tejas Parikh: cloud best practices on AWS for 60+ graduate students</sub>
+- **Software Engineer**, Jaksh Enterprise · Aug 2022 to Jul 2024 · full-time<br><sub>Java / Spring Boot quotation engine for 590+ products; quote-page p95 latency cut 65%</sub>
+- **Software Development Engineer Intern**, Pitney Bowes · Jan 2022 to Jul 2022<br><sub>REST APIs and Angular workflows for PitneyShipPro</sub>
 
-Building a self-hosted Go broker that sits between AI agents and the platform APIs they call. Interviewing for AI Engineer and Forward Deployed Engineer roles.
+Authorized to work in the US (F-1 OPT, STEM-eligible).
 
----
+### More
 
-### Activity
-
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="100%"/>
-</p>
-
----
-
-### The team I'm looking for
-
-```
-small teams that ship before it's perfect.
-hard technical problems over big-company comfort.
-all-in on ai, not ai-curious.
-people who care about craft, not titles.
-```
-
----
-
-### Background
-
-Graduate Teaching Assistant for CSYE 6225 Network Structures and Cloud Computing at Northeastern University under Prof. Tejas Parikh (Sep 2025 to May 2026), teaching cloud best practices on AWS to 60+ graduate students. Before grad school, two years as a full-time software engineer at Jaksh Enterprise: a Java / Spring Boot quotation engine for 590+ products, with quote-page p95 latency cut 65%. Before that, a software engineering internship at Pitney Bowes.
-
-Authorized to work in the US (F-1 OPT, STEM-eligible). Earlier work, 2020 to 2024: [github.com/Devanshuc](https://github.com/Devanshuc).
+[financial-copilot](https://github.com/DevanshuNEU/financial-copilot), an AI expense tracker on React and Supabase Edge Functions · [mem-machines](https://github.com/DevanshuNEU/mem-machines), serverless ingestion on GCP Cloud Run and Pub/Sub · [tool-crowding](https://github.com/DevanshuNEU/tool-crowding), an MCP tool-selection benchmark harness · earlier work, 2020 to 2024, at [github.com/Devanshuc](https://github.com/Devanshuc)
 
 <details>
 <summary><b>Why I'm all-in on AI</b></summary>
@@ -108,4 +84,4 @@ Either we ship something that matters, or we learn fast and try again.
 
 </details>
 
-[devanshuchicholikar.com](https://www.devanshuchicholikar.com) · [linkedin](https://www.linkedin.com/in/devanshuchicholikar) · [email](mailto:chicholikar.d@northeastern.edu)
+<sub>ship fast. learn faster. craft over titles. help over hype.</sub>
