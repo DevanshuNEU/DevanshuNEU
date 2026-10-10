@@ -54,7 +54,7 @@ I'm an AI engineer in Boston. I ship AI systems to production end to end: MCP se
 ### Latest
 
 <!-- AUTO:START -->
-**2026-10-09** · Saar · docs(store-listing): call inject.js a page-context script, not sandboxed
+**2026-10-10** · Portfolio OS · structured data: a walkthrough video goes in subjectOf, not sameAs
 <!-- AUTO:END -->
 
 ### Experience
