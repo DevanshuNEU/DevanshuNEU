@@ -1,9 +1,9 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/hero-dark.svg">
-  <img alt="Devanshu Chicholikar. AI engineer and forward deployed engineer in Boston who ships AI to production: MCP, RAG, evals, voice agents. Open to AI Engineer and FDE roles." src="./.github/assets/hero-light.svg" width="100%">
+  <img alt="Devanshu Chicholikar. Software engineer and AI engineer in Boston who ships AI to production: MCP, RAG, evals, voice agents. Open to Software Engineer, AI Engineer and Forward Deployed Engineer roles." src="./.github/assets/hero-light.svg" width="100%">
 </picture>
 
-I'm an AI engineer in Boston. I ship AI systems to production end to end: MCP servers, RAG with retrieval evals, LLM-as-a-judge eval harnesses and voice agents, plus the full-stack, infra and design work around them. MS in Software Engineering Systems, Northeastern University (2026). Open to AI Engineer and Forward Deployed Engineer roles anywhere in the US.
+I'm a software engineer and AI engineer in Boston. I ship AI systems to production end to end: MCP servers, RAG with retrieval evals, LLM-as-a-judge eval harnesses and voice agents, plus the full-stack, infra and design work around them. MS in Software Engineering Systems, Northeastern University (2026). Open to AI Engineer and Forward Deployed Engineer roles anywhere in the US.
 
 <p><samp><a href="https://www.devanshuchicholikar.com">portfolio</a> · <a href="https://opencodeintel.com">opencodeintel.com</a> · <a href="https://www.linkedin.com/in/devanshuchicholikar">linkedin</a> · <a href="mailto:chicholikar.d@northeastern.edu">email</a></samp></p>
 
@@ -11,7 +11,7 @@ I'm an AI engineer in Boston. I ship AI systems to production end to end: MCP se
 
 <p>
 <a href="https://github.com/OpenCodeIntel/opencodeintel"><picture><source media="(prefers-color-scheme: dark)" srcset="./.github/assets/card-opencodeintel-dark.svg"><img alt="OpenCodeIntel: Code search for AI coding agents. A web app, a REST API and a 12-tool MCP server. Pipeline: repo to tree-sitter to BM25 + vectors to RRF + rerank to MCP. 94% Hit@1, research eval; 242ms p50 cached, production." src="./.github/assets/card-opencodeintel-light.svg" width="49%"></picture></a>
-<a href="https://github.com/DevanshuNEU/overhear"><picture><source media="(prefers-color-scheme: dark)" srcset="./.github/assets/card-overhear-dark.svg"><img alt="Overhear: A QA analyst for voice agents. Grades every call against the clinic&#x27;s real database. Pipeline: call to Retell agent to tool log to code + judge to score. 23/23 planted failures caught; 0.89 macro-F1, 39-call set." src="./.github/assets/card-overhear-light.svg" width="49%"></picture></a>
+<a href="https://github.com/DevanshuNEU/overhear"><picture><source media="(prefers-color-scheme: dark)" srcset="./.github/assets/card-overhear-dark.svg"><img alt="Overhear: A QA analyst for voice agents. Code checks the call log, a judge checks what it said. Pipeline: call to Retell agent to tool log to code + judge to score. 23/23 planted failures caught; 0.89 macro-F1, 39-call set." src="./.github/assets/card-overhear-light.svg" width="49%"></picture></a>
 </p>
 
 <p>
@@ -27,8 +27,8 @@ I'm an AI engineer in Boston. I ship AI systems to production end to end: MCP se
 | Project | What it is | Links |
 |---|---|---|
 | **OpenCodeIntel** | Code-search platform for AI coding agents: hybrid BM25 + vector retrieval, cross-encoder reranking, tree-sitter AST chunking, a 12-tool MCP server | [opencodeintel.com](https://opencodeintel.com) · [source](https://github.com/OpenCodeIntel/opencodeintel) |
-| **Overhear** | QA analyst for voice agents: code checks the facts against the clinic database, an LLM-as-a-judge scores tone and safety, evaluated on a 39-call golden dataset | [source](https://github.com/DevanshuNEU/overhear) |
-| **CallBudget** | Active-sensing pharmacy search: a learned ranker plans calls, a voice agent places them, calibrated abstention keeps false "in stock" answers at 0% | [walkthrough](https://www.loom.com/share/0231954a438c4b3ab011fd21f4f41bf2) · [source](https://github.com/DevanshuNEU/callbudget) |
+| **Overhear** | QA analyst for voice agents: code checks the call log (identity, bookings, tool calls), an LLM-as-a-judge checks what the agent said against the real slots, evaluated on a 39-call golden dataset | [source](https://github.com/DevanshuNEU/overhear) |
+| **CallBudget** | Active-sensing pharmacy search: a learned ranker plans calls and a voice agent places them; an abstention layer on the stock extractor took false "in stock" answers from 10% to 0% | [walkthrough](https://www.loom.com/share/0231954a438c4b3ab011fd21f4f41bf2) · [source](https://github.com/DevanshuNEU/callbudget) |
 | **Saar** | Chrome extension that meters Claude.ai tokens and cost in real time, fully client-side | [getsaar.com](https://getsaar.com) · [source](https://github.com/OpenCodeIntel/lco) |
 | **Portfolio OS** | A desktop operating system in a browser tab: window manager, terminal, dock | [live](https://www.devanshuchicholikar.com) · [source](https://github.com/DevanshuNEU/web-v2) |
 | **saar CLI** | Static analysis that writes AGENTS.md, CLAUDE.md and .cursorrules for a codebase | [PyPI](https://pypi.org/project/saar/) · [source](https://github.com/OpenCodeIntel/saar) |

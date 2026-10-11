@@ -133,7 +133,7 @@ CARDS = [
          flow=["repo", "tree-sitter", "BM25 + vectors", "RRF + rerank", "MCP"], hi=4,
          metrics=[("94%", "Hit@1, research eval"), ("242ms", "p50 cached, production")]),
     dict(slug="overhear", stack="TypeScript · Next.js · Retell · Claude · Postgres · Drizzle", idx="02", name="Overhear", tag="VOICE AI · LLM-AS-A-JUDGE",
-         pitch=["A QA analyst for voice agents. Grades every", "call against the clinic's real database."],
+         pitch=["A QA analyst for voice agents. Code checks", "the call log, a judge checks what it said."],
          flow=["call", "Retell agent", "tool log", "code + judge", "score"], hi=3,
          metrics=[("23/23", "planted failures caught"), ("0.89", "macro-F1, 39-call set")]),
     dict(slug="callbudget", stack="Python · FastMCP · scikit-learn · Optuna · Pipecat · DuckDB", idx="03", name="CallBudget", tag="AGENTS · MCP · ML",
@@ -194,9 +194,9 @@ def hero_body(t, W, H):
     b.append(text(MONO, "DEVANSHUNEU", 40, 64, 20, t["dim"], track=3))
     b.append(text(MONO, "BOSTON, MA", W - 40, 64, 20, t["dim"], "end", track=3))
     b.append(text(SANS_SB, "Devanshu Chicholikar", W / 2, 186, 92, t["fg"], "middle", track=-2.6))
-    b.append(text(MONO, "AI engineer  ·  forward deployed  ·  ships AI to production", W / 2, 246, 26, t["mid"], "middle"))
+    b.append(text(MONO, "software engineer  ·  AI engineer  ·  forward deployed", W / 2, 246, 26, t["mid"], "middle"))
     b.append(f'<path d="M{W / 2 - 150} 286H{W / 2 + 150}" stroke="{t["line"]}" stroke-width="1.5"/>')
-    meta = "MCP  ·  RAG  ·  EVALS  ·  VOICE AGENTS  ·  OPEN TO AI ENGINEER + FDE ROLES"
+    meta = "MCP  ·  RAG  ·  EVALS  ·  VOICE AGENTS  ·  OPEN TO SWE, AI + FDE ROLES"
     mw = MONO.width(meta, 18, 2.6)
     b.append(f'<circle cx="{W / 2 - mw / 2 - 18:.1f}" cy="{330 - 6}" r="5" fill="{t["fg"]}"/>')
     b.append(text(MONO, meta, W / 2, 330, 18, t["dim"], "middle", track=2.6))
@@ -267,7 +267,7 @@ def main():
     os.makedirs(os.path.join(OUT, "social"), exist_ok=True)
     for theme, t in THEMES.items():
         write(f"hero-{theme}.svg", svg(1200, 380, hero_body(t, 1200, 380),
-              "Devanshu Chicholikar. AI engineer and forward deployed engineer in Boston who ships AI to production: MCP, RAG, evals, voice agents. Open to AI Engineer and FDE roles."))
+              "Devanshu Chicholikar. Software engineer and AI engineer in Boston who ships AI to production: MCP, RAG, evals, voice agents. Open to Software Engineer, AI Engineer and Forward Deployed Engineer roles."))
         for c in CARDS:
             write(f"card-{c['slug']}-{theme}.svg", svg(1200, 900, card_body(c, t, 1200, 900), card_label(c)))
         write(f"oci-architecture-{theme}.svg", svg(1200, 760, arch_body(t, 1200, 760),
