@@ -54,7 +54,7 @@ I'm a software engineer and AI engineer in Boston. I ship AI systems to producti
 ### Latest
 
 <!-- AUTO:START -->
-**2026-10-10** · Portfolio OS · truth: match Overhear, CallBudget and OCI claims to what the code does
+**2026-10-11** · OpenCodeIntel · docs: link the published retrieval research
 <!-- AUTO:END -->
 
 ### Experience
