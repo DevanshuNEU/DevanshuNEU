@@ -38,7 +38,7 @@ I'm a software engineer and AI engineer in Boston. I ship AI systems to producti
 <img src="./.github/assets/oci-demo.gif" alt="Demo: searching the Flask codebase on opencodeintel.com for 'handle an http exception with a registered error handler'. The top result is handle_http_exception at a 70 percent match, followed by errorhandler and handle_exception." width="100%">
 
 - **94% Hit@1** across 14 open-source codebases on a 665-query research eval, with the reranker's +8.4 points isolated by a 98-run ablation.
-- **p50 641ms** for a cold search (embedding, hybrid retrieval and reranking) and **242ms** for cached repeats, measured on production.
+- **p50 641ms** for a cold search on the public playground (vector search with keyword and code-graph boosts) and **242ms** for cached repeats, measured on production.
 - **12 MCP tools** over stdio for local agents and streamable HTTP for hosted Claude.ai connectors.
 - One result that went against me: rerankers trained on web text made code search worse. It stays in the research log.
 
