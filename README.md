@@ -26,7 +26,7 @@ I'm a software engineer and AI engineer in Boston. I ship AI systems to producti
 
 | Project | What it is | Links |
 |---|---|---|
-| **OpenCodeIntel** | Code-search platform for AI coding agents: hybrid BM25 + vector retrieval, reranking (Voyage rerank-2 in the research eval), tree-sitter AST chunking, a 12-tool MCP server | [opencodeintel.com](https://opencodeintel.com) · [source](https://github.com/OpenCodeIntel/opencodeintel) |
+| **OpenCodeIntel** | Code-search platform for AI coding agents: vector search fused with BM25 keyword scoring, reranking (Voyage rerank-2 in the research eval, Cohere rerank-v3.5 in production), tree-sitter AST chunking, a 12-tool MCP server | [opencodeintel.com](https://opencodeintel.com) · [source](https://github.com/OpenCodeIntel/opencodeintel) |
 | **Overhear** | QA analyst for voice agents: code checks the call log (identity, bookings, tool calls), an LLM-as-a-judge checks what the agent said against the real slots, evaluated on a 39-call golden dataset | [source](https://github.com/DevanshuNEU/overhear) |
 | **CallBudget** | Active-sensing pharmacy search: a learned ranker picks which pharmacy a voice agent should call first, tested on a simulated pharmacist with real pharmacy data; an abstention layer on the stock extractor took false "in stock" answers from 10% to 0% | [walkthrough](https://www.loom.com/share/0231954a438c4b3ab011fd21f4f41bf2) · [source](https://github.com/DevanshuNEU/callbudget) |
 | **Saar** | Chrome extension that meters Claude.ai tokens and cost in real time, fully client-side | [getsaar.com](https://getsaar.com) · [source](https://github.com/OpenCodeIntel/lco) |
