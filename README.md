@@ -54,7 +54,7 @@ I'm a software engineer and AI engineer in Boston. I ship AI systems to producti
 ### Latest
 
 <!-- AUTO:START -->
-**2026-10-11** · OpenCodeIntel · docs: link the published retrieval research
+**2026-10-13** · Portfolio OS · Describe OCI search as it runs in production
 <!-- AUTO:END -->
 
 ### Experience
