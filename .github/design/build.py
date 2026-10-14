@@ -131,7 +131,7 @@ CARDS = [
     dict(slug="opencodeintel", stack="Python · FastAPI · FastMCP · Pinecone · Cohere · Redis · React", idx="01", name="OpenCodeIntel", tag="MCP · RAG · EVALS",
          pitch=["Code search for AI coding agents. A web app,", "a REST API and a 12-tool MCP server."],
          flow=["repo", "tree-sitter", "BM25 + vectors", "RRF + rerank", "MCP"], hi=4,
-         metrics=[("94%", "Hit@1, research eval"), ("242ms", "p50 cached, production")]),
+         metrics=[("94%", "Hit@1, research eval"), ("242ms", "p50 cached, playground")]),
     dict(slug="overhear", stack="TypeScript · Next.js · Retell · Claude · Postgres · Drizzle", idx="02", name="Overhear", tag="VOICE AI · LLM-AS-A-JUDGE",
          pitch=["A QA analyst for voice agents. Code checks", "the call log, a judge checks what it said."],
          flow=["call", "Retell agent", "tool log", "code + judge", "score"], hi=3,
