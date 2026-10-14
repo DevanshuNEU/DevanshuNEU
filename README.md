@@ -10,7 +10,7 @@ I'm a software engineer and AI engineer in Boston. I ship AI systems to producti
 ### Selected work
 
 <p>
-<a href="https://github.com/OpenCodeIntel/opencodeintel"><picture><source media="(prefers-color-scheme: dark)" srcset="./.github/assets/card-opencodeintel-dark.svg"><img alt="OpenCodeIntel: Code search for AI coding agents. A web app, a REST API and a 12-tool MCP server. Pipeline: repo to tree-sitter to BM25 + vectors to RRF + rerank to MCP. 94% Hit@1, research eval; 242ms p50 cached, production." src="./.github/assets/card-opencodeintel-light.svg" width="49%"></picture></a>
+<a href="https://github.com/OpenCodeIntel/opencodeintel"><picture><source media="(prefers-color-scheme: dark)" srcset="./.github/assets/card-opencodeintel-dark.svg"><img alt="OpenCodeIntel: Code search for AI coding agents. A web app, a REST API and a 12-tool MCP server. Pipeline: repo to tree-sitter to BM25 + vectors to RRF + rerank to MCP. 94% Hit@1, research eval; 242ms p50 cached, public playground." src="./.github/assets/card-opencodeintel-light.svg" width="49%"></picture></a>
 <a href="https://github.com/DevanshuNEU/overhear"><picture><source media="(prefers-color-scheme: dark)" srcset="./.github/assets/card-overhear-dark.svg"><img alt="Overhear: A QA analyst for voice agents. Code checks the call log, a judge checks what it said. Pipeline: call to Retell agent to tool log to code + judge to score. 23/23 planted failures caught; 0.89 macro-F1, 39-call set." src="./.github/assets/card-overhear-light.svg" width="49%"></picture></a>
 </p>
 
