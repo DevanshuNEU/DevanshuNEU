@@ -54,7 +54,7 @@ I'm a software engineer and AI engineer in Boston. I ship AI systems to producti
 ### Latest
 
 <!-- AUTO:START -->
-**2026-10-13** · OpenCodeIntel · Make the landing FAQ, feature card and latency docs match what the code does
+**2026-10-14** · Portfolio OS · Swap in the recertified resume PDF; place the onboarding story at Pitney Bowes
 <!-- AUTO:END -->
 
 ### Experience
