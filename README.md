@@ -54,7 +54,7 @@ I'm a software engineer and AI engineer in Boston. I ship AI systems to producti
 ### Latest
 
 <!-- AUTO:START -->
-**2026-10-14** · Portfolio OS · Swap in the recertified resume PDF; place the onboarding story at Pitney Bowes
+**2026-10-16** · Overhear · fix(verify): match on exact DOB and a close name; make the agent sound human (#...
 <!-- AUTO:END -->
 
 ### Experience
