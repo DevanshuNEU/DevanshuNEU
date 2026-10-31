@@ -54,7 +54,7 @@ I'm a software engineer and AI engineer in Boston. I ship AI systems to producti
 ### Latest
 
 <!-- AUTO:START -->
-**2026-10-29** · Portfolio OS · Use the system cursor instead of the custom ring (#38)
+**2026-10-31** · Overhear · fix(clinic): guard changes to the verified patient; answer Retell before scorin...
 <!-- AUTO:END -->
 
 ### Experience
