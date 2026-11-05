@@ -54,7 +54,7 @@ I'm a software engineer and AI engineer in Boston. I ship AI systems to producti
 ### Latest
 
 <!-- AUTO:START -->
-**2026-10-31** · Overhear · fix(clinic): guard changes to the verified patient; answer Retell before scorin...
+**2026-11-04** · Overhear · Conductor settings: setup, run actions, archive on merge (#34)
 <!-- AUTO:END -->
 
 ### Experience
