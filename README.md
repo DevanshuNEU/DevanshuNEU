@@ -54,7 +54,7 @@ I'm a software engineer and AI engineer in Boston. I ship AI systems to producti
 ### Latest
 
 <!-- AUTO:START -->
-**2026-11-04** · Overhear · Conductor settings: setup, run actions, archive on merge (#34)
+**2026-11-06** · Overhear · feat(engine): policy, inference, Northwind preset, success resolution (#48)
 <!-- AUTO:END -->
 
 ### Experience
