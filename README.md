@@ -54,7 +54,7 @@ I'm a software engineer and AI engineer in Boston. I ship AI systems to producti
 ### Latest
 
 <!-- AUTO:START -->
-**2026-11-08** · Overhear · feat(engine): call experience, dates and times read naturally (OVE-57) (#78)
+**2026-11-09** · Overhear · fix(retell): the demo agent can hang up, and never says UTC (#91)
 <!-- AUTO:END -->
 
 ### Experience
