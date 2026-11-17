@@ -54,7 +54,7 @@ I'm a software engineer and AI engineer in Boston. I ship AI systems to producti
 ### Latest
 
 <!-- AUTO:START -->
-**2026-11-09** · Overhear · fix(retell): the demo agent can hang up, and never says UTC (#91)
+**2026-11-17** · Overhear · fix(engine): "Couldn't check" names the thing, not the rule title (OVE-71) (#95)
 <!-- AUTO:END -->
 
 ### Experience
