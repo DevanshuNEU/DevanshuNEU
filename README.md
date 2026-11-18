@@ -54,7 +54,7 @@ I'm a software engineer and AI engineer in Boston. I ship AI systems to producti
 ### Latest
 
 <!-- AUTO:START -->
-**2026-11-17** · Overhear · fix(engine): "Couldn't check" names the thing, not the rule title (OVE-71) (#95)
+**2026-11-18** · Overhear · feat(app): navigation, and the public demo on sample calls (OVE-68, OVE-69) (#9...
 <!-- AUTO:END -->
 
 ### Experience
