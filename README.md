@@ -54,7 +54,7 @@ I'm a software engineer and AI engineer in Boston. I ship AI systems to producti
 ### Latest
 
 <!-- AUTO:START -->
-**2026-11-20** · Overhear · feat(app): call the demo agent from the public page (OVE-72) (#96)
+**2026-11-22** · Overhear · feat(app): open LiveKit session reports in the dashboard (OVE-73) (#100)
 <!-- AUTO:END -->
 
 ### Experience
