@@ -54,7 +54,7 @@ I'm a software engineer and AI engineer in Boston. I ship AI systems to producti
 ### Latest
 
 <!-- AUTO:START -->
-**2026-11-23** · Overhear · docs: the README lists every check and the current numbers, with an index of th...
+**2026-11-23** · Overhear · fix: findings from the final security review (slot top-up after a cancel, hones...
 <!-- AUTO:END -->
 
 ### Experience
